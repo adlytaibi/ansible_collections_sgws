@@ -1,0 +1,13 @@
+---
+#=== Grid's section ===#
+- import_tasks: sgws_authorize.yml
+
+#--- SSL Certificates ---#
+#- import_tasks: sgws_api_mgmt_cert_{{ api_mgmt_cert_state }}.yml
+#- import_tasks: sgws_api_stor_cert_{{ api_stor_cert_state }}.yml
+
+#--- Indentity provider ---#
+#- import_tasks: sgws_identity.yml
+
+#--- Groups and users ---#
+- import_tasks: sgws_groups.yml

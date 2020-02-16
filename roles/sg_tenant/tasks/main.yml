@@ -1,0 +1,18 @@
+---
+#--- Tenant's account ---#
+- import_tasks: sgws_accounts.yml
+
+#=== Tenant's section ===#
+- import_tasks: sgws_org_authorize.yml
+
+#--- Indentity provider ---#
+#- import_tasks: sgws_org_identity.yml
+
+#--- Groups and users ---#
+- import_tasks: sgws_org_groups.yml
+
+#--- S3 keys ---#
+- import_tasks: sgws_org_s3keys.yml
+
+#--- Bucket ---#
+- import_tasks: sgws_org_bucket.yml

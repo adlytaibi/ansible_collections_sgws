@@ -1,0 +1,16 @@
+---
+galaxy_info:
+  author: Adly Taibi
+  description: StorageGRID grid configuration
+  company: NetApp
+  license: GPL-3.0-only
+  min_ansible_version: 2.4
+  platforms:
+    - name: Ubuntu
+      versions:
+        - all
+    - name: EL
+      versions:
+        - all
+  galaxy_tags: [netapp, storagegrid]
+dependencies: []

@@ -1,0 +1,10 @@
+---
+- name: sgws
+  connection: local
+  hosts: localhost
+  gather_facts: true
+  collections:
+    - netapp.sgws
+  roles:
+    - sg_grid
+    - sg_tenant

@@ -1,0 +1,15 @@
+---
+- name: Get grid authorization token
+  uri:
+    url: https://{{ grid_admn }}/api/v2/authorize
+    method: POST
+    body: {
+      "username": "{{ grid_user }}",
+      "password": "{{ grid_pass }}",
+      "cookie": true,
+      "csrfToken": false
+    }
+    body_format: json
+    validate_certs: false
+  register: auth
+  no_log: true

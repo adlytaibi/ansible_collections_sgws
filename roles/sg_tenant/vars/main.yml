@@ -1,0 +1,9 @@
+---
+# Tenant's credentials
+# Use accountid for existing tenant
+#accountid: 12345678901234567890
+org_user: root
+org_pass: my password
+
+# Directory for storing S3 keys
+s3keysdir: /root/s3keys/
