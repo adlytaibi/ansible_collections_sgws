@@ -1,5 +1,4 @@
 # Ansible Collection - adlytaibi.sgws
-=====================================
 
 This collection contains two roles that are intended to configure a NetApp StorageGRID. The following tasks can be performed:
 
